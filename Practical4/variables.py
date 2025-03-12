@@ -1,4 +1,20 @@
-for i in range(1,11):
-    #Ti=0.5*i*(i+1)
-    ti=0.5*(i+1)*i
-    print('Ti=',ti)
+a=15
+b=1*60+15
+c=a+b
+d=1*60+30
+e=5
+f=d+e
+print( 'c:', c)
+print( 'f:', f)
+#f is longer, c is faster.
+
+x=True
+y=False
+w=x and y
+#w=False
+
+#w  x  y
+#T  T  T
+#F  T  F
+#F  F  T
+#F  F  F
