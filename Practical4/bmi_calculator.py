@@ -1,5 +1,5 @@
-weight=input('your weight is:') #gain the weight
-height=input('your height is:') #gain the height
+weight=input('your weight is:') #get the weight
+height=input('your height is:') #get the height
 weight=int(weight) #trun the string to number
 height=int(height) #trun the string to number
 bmi=weight/(height*height) #calculate the bmi
