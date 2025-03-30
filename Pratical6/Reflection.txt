@@ -1,1 +1,8 @@
-
+At the start, I want to say I really want to show you my reflection and I am begging you to see my whole reflection.
+Firstly, I want to explain why there are more than one "spatial_SIR" in the Practical6:
+When I was trying to solve the task of "spatail_SIR", I found a problem that when there are no poeple in "condition 0"(Never be infected) in the final, the "condition 1"(infected people) will be shown with the color for "condition 0" because the color was given by computer automaticlly. I also found many classmates troubled by this problem.
+This problem interested me. I wanted to solve it by myself, or say I wanted to challenge myself: Can I solve it without the help from AI or browsers？
+So, just to challenge myself, I found out a spetial way without knowlegde about distributing colors by ourselves: I changed the 100*100 squear to 100*101 and kept the right edge always in "condition 0"(they do not participate in the infection progress, just used to ensure that there are always people in "condition 0"). Therefore, the color used for "condition 0" will never be occupied by "condition 1"
+However, it generated another problem that the added poeple makes the picture strange. So I thought out a solution: make the color for "condition 0" white. By this way, the added poeple will looked like the background so that it looks almost "perfect".
+To see the code above, you can see the "spatial_SIR.py" in Practial6. It cost me a lot time, but I actually enjoyed it and I am proud for it. It is not smart, but it is my own way to solve the problem.
+And for the normal ways to solve the problem, that is in "spatial_SIR(2).py". It distributed colors by fixing "vmax" and "vmin" so the color will not be occupied.
