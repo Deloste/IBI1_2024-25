@@ -1,3 +1,3 @@
 question:What country or countries have recorded a DALYs greater than 650,000 in a single year?
-code from 22 to 27
+code from 26 to 31.
 The only country that has recorded a DALYs greater than 650,000 in a single year is Rwanda.
