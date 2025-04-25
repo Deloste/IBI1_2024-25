@@ -15,6 +15,10 @@ print(data_1990)
 uk = dalys_data.loc[dalys_data.Entity=="United Kingdom", ["DALYs", "Year"]]
 plt.plot(uk.Year, uk.DALYs, 'bo')
 plt.xticks(uk.Year,rotation=-90)
+plt.title("DALYs Over Time in the UK")
+plt.xlabel("Year")
+plt.ylabel("DALYs")
+plt.show()  # Explicitly show the plot
 fr = dalys_data.loc[dalys_data.Entity=="France", ["DALYs", "Year"]]
 uk.describe() #mean=23319.016333
 fr.describe() #mean=21474.627000
