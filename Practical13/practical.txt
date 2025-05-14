@@ -1,0 +1,5 @@
+The length of the human SOD2 protein:222AA
+The subcellular localisation of the human SOD2 protein:Mitochondrion
+The range of percentage identities in the reported online BLAST results:47.4%-100%
+The alignment score and percentage of identical amino acids:
+which of these two sequences are most closely related:
