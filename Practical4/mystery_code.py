@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:Simulating how many times it takes to make two dice to have same dots.
+# Answer:Generates pair of random numbers between 1 and 6 until two identical.
 
 # Import libraries
 # randint allows drawing a random number,
