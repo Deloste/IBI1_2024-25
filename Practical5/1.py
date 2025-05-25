@@ -3,8 +3,10 @@ dict={'JavaScript':62.3,'HTML':52.9,'Python':51,'SQL':51,'TypeScript':38.5}
 print(dict)#print the dictionary
 k=dict.keys()#keys of dict
 v=dict.values()#values of dict
-bars = plt.bar(k, v, color='blue')#draw the bar
-for bar in bars:
-    height = bar.get_height() #get height
-    plt.text(bar.get_x() + bar.get_width() / 2, height, str(height), ha='center', va='bottom') #add data on the bars
-plt.show()#show the bar
+plt.figure(figsize=(10, 6))
+plt.bar(k, v, color='blue')
+plt.title('popularity of programming languages', fontsize=14)#title for the figure
+plt.xlabel('programming language', fontsize=12)# label for x
+plt.ylabel('percentage(%)', fontsize=12)#label for y  
+plt.tight_layout()  
+plt.show()#show the bars
