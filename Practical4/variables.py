@@ -6,6 +6,7 @@ e=5
 f=d+e
 print( 'c:', c)
 print( 'f:', f)
+print(c<f)
 #f is longer, c is faster.
 
 x=True
