@@ -1,5 +1,3 @@
-# tata_genes.py
-
 import re
 
 def fasta_iter(fasta_filename):
