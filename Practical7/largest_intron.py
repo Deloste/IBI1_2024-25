@@ -1,5 +1,3 @@
-# largest_intron.py
-
 seq = 'ATGCAAGTGGTGTGTCTGTTCTGAGAGGGCCTAA'
 
 # Find all GT...AG introns, where both GT and AG are included in the intron
