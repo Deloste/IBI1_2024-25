@@ -101,7 +101,7 @@ def find_max_is_a_sax(filename):
     return handler.ontology_info, time_elapsed
 
 
-filename = r"C:\Users\admin\Desktop\go_obo.xml"   # 注意加r防止转义
+filename = r"C:\Users\admin\Desktop\go_obo.xml"   
 
 
 dom_result, dom_time = find_max_is_a_dom(filename)
