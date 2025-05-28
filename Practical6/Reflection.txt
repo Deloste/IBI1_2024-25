@@ -6,8 +6,6 @@ So, just to challenge myself, I found out a spetial way without knowlegde about 
 However, it generated another problem that the added poeple makes the picture strange. So I thought out a solution: make the color for "condition 0" white. By this way, the added poeple will looked like the background so that it looks almost "perfect".
 To see the code above, you can see the "spatial_SIR(1).py" in Practial6. It cost me a lot time, but I actually enjoyed it and I am proud for it. It is not smart, but it is my own way to solve the problem.
 And for the normal ways to solve the problem, that is in "spatial_SIR(2).py". It distributed colors by fixing "vmax" and "vmin" so the color will not be occupied.
-What's more, based on the "spatial_SIR(2).py", I tried to make the progress more obvious(and also for interest). So, I searched how to make it an anima. Finally I completed "spatial_SIR(3).py", which showed the whole progress an anima so that it become visual.
-At start, the anima did not stop. But after searching for help, I setted "repeat=false" so that it will stop when "frames now ==99"
 
 
 And I still have a problem: 
